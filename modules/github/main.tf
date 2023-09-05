@@ -1,24 +1,23 @@
 resource "github_repository" "this" {
-  for_each = var.repositories
+  name         = var.name
+  description  = var.description
+  homepage_url = var.homepage_url
+  visibility   = var.visibility
 
-  name         = each.key
-  archived     = try(each.value.archived, false)
-  description  = try(each.value.description, null)
-  homepage_url = try(each.value.homepage_url, null)
-  visibility   = try(each.value.visibility, "public")
+  has_issues      = var.has_issues
+  has_discussions = var.has_discussions
+  has_projects    = var.has_projects
+  has_wiki        = var.has_wiki
 
-  has_discussions = try(each.value.has_discussions, false)
-  has_downloads   = try(each.value.has_downloads, true)
-  has_issues      = try(each.value.has_issues, true)
-  has_projects    = try(each.value.has_projects, true)
-  has_wiki        = try(each.value.has_wiki, false)
+  allow_merge_commit = var.allow_merge_commit
+  allow_squash_merge = var.allow_squash_merge
+  allow_rebase_merge = var.allow_rebase_merge
+  allow_auto_merge   = var.allow_auto_merge
 
-  allow_auto_merge   = try(each.value.allow_auto_merge, false)
-  allow_merge_commit = try(each.value.allow_merge_commit, true)
-  allow_rebase_merge = try(each.value.allow_rebase_merge, true)
-  allow_squash_merge = try(each.value.allow_squash_merge, true)
+  archived           = var.archived
+  archive_on_destroy = var.archive_on_destroy
 
-  vulnerability_alerts = try(each.value.vulnerability_alerts, null)
+  vulnerability_alerts = var.vulnerability_alerts
 
-  topics = sort(try(each.value.topics, []))
+  topics = sort(var.topics)
 }

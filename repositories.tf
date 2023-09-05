@@ -1,8 +1,6 @@
 provider "github" {}
 
-module "repositories" {
-  source = "./modules/github"
-
+locals {
   repositories = {
     powershell = {
       description = "My collection of Powershell modules and scripts."
@@ -109,4 +107,15 @@ module "repositories" {
       topics       = ["github", "terraform-managed"]
     }
   }
+}
+
+module "repositories" {
+  source = "./modules/github"
+
+  for_each = local.repositories
+
+  name         = each.key
+  description  = each.value.description
+  homepage_url = try(each.value.homepage_url, null)
+  topics       = each.value.topics
 }
