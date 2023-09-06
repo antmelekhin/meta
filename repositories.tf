@@ -106,6 +106,12 @@ locals {
       homepage_url = "https://github.com/antmelekhin"
       topics       = ["github", "terraform-managed"]
     }
+
+    terraform-github-repository = {
+      description  = "A Terraform module to manage GitHub Repositories."
+      homepage_url = "https://registry.terraform.io/modules/antmelekhin/repository/github"
+      topics       = ["github", "github-repository", "terraform", "terraform-module"]
+    }
   }
 }
 
