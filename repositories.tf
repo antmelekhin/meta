@@ -110,7 +110,8 @@ locals {
 }
 
 module "repositories" {
-  source = "./modules/github"
+  source  = "antmelekhin/repository/github"
+  version = "1.0.0"
 
   for_each = local.repositories
 
