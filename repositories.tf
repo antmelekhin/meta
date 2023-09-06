@@ -62,7 +62,7 @@ locals {
     terraform-yandex-compute = {
       description  = "A terraform module to create compute resources on Yandex Cloud."
       homepage_url = "https://registry.terraform.io/modules/antmelekhin/compute/yandex"
-      topics       = ["compute", "terraform", "terraform-module", "yandex", "yandex-cloud"]
+      topics       = ["compute", "iac", "terraform", "terraform-module", "yandex", "yandex-cloud"]
     }
 
     docker-systemd = {
@@ -104,13 +104,13 @@ locals {
     meta = {
       description  = "Meta-configurations for my repositories."
       homepage_url = "https://github.com/antmelekhin"
-      topics       = ["github", "terraform-managed"]
+      topics       = ["github", "iac", "terraform-managed"]
     }
 
     terraform-github-repository = {
       description  = "A Terraform module to manage GitHub Repositories."
       homepage_url = "https://registry.terraform.io/modules/antmelekhin/repository/github"
-      topics       = ["github", "github-repository", "terraform", "terraform-module"]
+      topics       = ["github", "github-repository", "iac", "terraform", "terraform-module"]
     }
   }
 }
