@@ -117,7 +117,7 @@ locals {
 
 module "repositories" {
   source  = "antmelekhin/repository/github"
-  version = "1.0.0"
+  version = "1.0.1"
 
   for_each = local.repositories
 
