@@ -168,6 +168,15 @@ locals {
         GH_TOKEN = var.github_token
       }
     }
+
+    docker-ansible = {
+      description  = "Docker image with Ansible."
+      homepage_url = "https://hub.docker.com/r/antmelekhin/docker-ansible"
+      topics       = ["docker", "ansible"]
+      actions_plaintext_secrets = {
+        DOCKER_HUB_TOKEN = var.docker_hub_token
+      }
+    }
   }
 }
 
