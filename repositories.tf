@@ -169,6 +169,16 @@ locals {
       }
     }
 
+    ansible-role-java = {
+      description  = "An Ansible role for install Java."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/java/"
+      topics       = ["ansible", "ansible-role", "java"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
+
     docker-ansible = {
       description  = "Docker image with Ansible."
       homepage_url = "https://hub.docker.com/r/antmelekhin/docker-ansible"
