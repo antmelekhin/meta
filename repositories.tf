@@ -102,6 +102,7 @@ locals {
       topics       = ["ansible", "docker", "molecule", "systemd"]
       actions_plaintext_secrets = {
         DOCKER_HUB_TOKEN = var.docker_hub_token
+        GH_TOKEN         = var.github_token
       }
     }
 
