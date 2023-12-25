@@ -161,6 +161,16 @@ locals {
       topics       = ["github", "iac", "terraform-managed"]
     }
 
+    ansible-role-postgresql = {
+      description  = "An Ansible role to install PostgreSQL."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgresql/"
+      topics       = ["ansible", "ansible-role", "database", "postgres", "postgresql", "sql"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
+
     terraform-github-repository = {
       description  = "A Terraform module to manage GitHub Repositories."
       homepage_url = "https://registry.terraform.io/modules/antmelekhin/repository/github"
