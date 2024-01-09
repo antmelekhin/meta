@@ -117,7 +117,7 @@ locals {
     }
 
     docker-terraform = {
-      description  = "Docker images with Terraform and Terragrunt tools."
+      description  = "Alpine-based Docker images with Terraform tools for usage in pipelines."
       homepage_url = "https://hub.docker.com/r/antmelekhin/docker-terraform"
       topics       = ["docker", "terraform", "terragrunt"]
       actions_plaintext_secrets = {
