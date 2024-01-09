@@ -191,11 +191,12 @@ locals {
     }
 
     docker-ansible = {
-      description  = "Docker image with Ansible."
+      description  = "Alpine-based Docker images with Ansible tools for usage in pipelines."
       homepage_url = "https://hub.docker.com/r/antmelekhin/docker-ansible"
       topics       = ["docker", "ansible"]
       actions_plaintext_secrets = {
         DOCKER_HUB_TOKEN = var.docker_hub_token
+        GH_TOKEN         = var.github_token
       }
     }
   }
