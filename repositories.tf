@@ -199,6 +199,11 @@ locals {
         GH_TOKEN         = var.github_token
       }
     }
+
+    ansible-galaxy-action = {
+      description = "A GitHub Action for publish an Ansible roles to Galaxy."
+      topics      = ["ansible", "ansible-galaxy", "ansible-role"]
+    }
   }
 }
 
