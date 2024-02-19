@@ -204,6 +204,16 @@ locals {
       description = "A GitHub Action for publish an Ansible roles to Galaxy."
       topics      = ["ansible", "ansible-galaxy", "ansible-role"]
     }
+
+    ansible-role-containerd = {
+      description  = "An Ansible role to install Containerd."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
+      topics       = ["ansible", "ansible-role", "containerd"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
   }
 }
 
