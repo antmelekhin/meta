@@ -146,7 +146,7 @@ locals {
     }
 
     ansible-role-docker = {
-      description  = "An Ansible role for install Docker Engine."
+      description  = "An Ansible role to install and configure Docker Engine."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/docker/"
       topics       = ["ansible", "ansible-role", "docker", "docker-engine"]
       actions_plaintext_secrets = {
