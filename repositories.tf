@@ -159,6 +159,9 @@ locals {
       description  = "Meta-configurations for my repositories."
       homepage_url = "https://github.com/antmelekhin"
       topics       = ["github", "iac", "terraform-managed"]
+      actions_plaintext_secrets = {
+        GH_TOKEN = var.github_token
+      }
     }
 
     ansible-role-postgresql = {
