@@ -8,12 +8,12 @@ locals {
     }
 
     ansible-role-domain-join = {
-      description = "An Ansible role for join hosts to Active Directory domain and local administrators management."
+      description = "An Ansible role to join hosts to Active Directory domain and local administrators management."
       topics      = ["ansible", "ansible-role", "active-directory", "authentication", "linux", "windows"]
     }
 
     ansible-role-openssh = {
-      description  = "An Ansible role for configure OpenSSH server and client."
+      description  = "An Ansible role to configure OpenSSH server and client."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/openssh/"
       topics       = ["ansible", "ansible-role", "linux", "openssh-client", "openssh-server", "windows"]
       actions_plaintext_secrets = {
@@ -23,7 +23,7 @@ locals {
     }
 
     ansible-role-jira = {
-      description  = "An Ansible role for install, configure and update Jira."
+      description  = "An Ansible role to install, configure and update Jira."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/jira/"
       topics       = ["ansible", "ansible-role", "issuetracker", "jira"]
       actions_plaintext_secrets = {
@@ -33,7 +33,7 @@ locals {
     }
 
     ansible-role-confluence = {
-      description  = "An Ansible role for install, configure and update Confluence."
+      description  = "An Ansible role to install, configure and update Confluence."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/confluence/"
       topics       = ["ansible", "ansible-role", "confluence", "wiki"]
       actions_plaintext_secrets = {
@@ -43,7 +43,7 @@ locals {
     }
 
     ansible-role-mysqld-exporter = {
-      description  = "An Ansible role for install, configure and update MySQL Exporter."
+      description  = "An Ansible role to install, configure and update MySQL Exporter."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/mysqld_exporter/"
       topics       = ["ansible", "ansible-role", "linux", "monitoring", "mysqld-exporter", "prometheus"]
       actions_plaintext_secrets = {
@@ -53,7 +53,7 @@ locals {
     }
 
     ansible-role-windows-exporter = {
-      description  = "An Ansible role for install, configure and update Windows Exporter."
+      description  = "An Ansible role to install, configure and update Windows Exporter."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/windows_exporter/"
       topics       = ["ansible", "ansible-role", "monitoring", "prometheus", "windows", "windows-exporter"]
       actions_plaintext_secrets = {
@@ -63,7 +63,7 @@ locals {
     }
 
     ansible-role-microsoft-repository = {
-      description  = "An Ansible role for add Microsoft repository on Linux distros and install packages from it."
+      description  = "An Ansible role to add Microsoft repository on Linux distros and install packages from it."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/microsoft_repository/"
       topics       = ["ansible", "ansible-role", "debian", "microsoft-repository", "packages", "rhel"]
       actions_plaintext_secrets = {
@@ -78,7 +78,7 @@ locals {
     }
 
     ansible-role-postgres-exporter = {
-      description  = "An Ansible role for install, configure and update Postgres Exporter."
+      description  = "An Ansible role to install, configure and update Postgres Exporter."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgres_exporter/"
       topics       = ["ansible", "ansible-role", "linux", "monitoring", "postgres-exporter", "prometheus", "windows"]
       actions_plaintext_secrets = {
@@ -107,7 +107,7 @@ locals {
     }
 
     ansible-role-nginx = {
-      description  = "An Ansible role that installs NGINX web server."
+      description  = "An Ansible role to install NGINX web server."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/nginx/"
       topics       = ["ansible", "ansible-role", "nginx", "web"]
       actions_plaintext_secrets = {
@@ -126,7 +126,7 @@ locals {
     }
 
     ansible-role-domain-controller = {
-      description  = "An Ansible role for setup Active Directory domain controllers."
+      description  = "An Ansible role to setup Active Directory domain controllers."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/domain_controller/"
       topics       = ["active-directory", "ansible", "ansible-role", "domain-controller", "windows"]
       actions_plaintext_secrets = {
@@ -136,7 +136,7 @@ locals {
     }
 
     ansible-role-gitlab-runner = {
-      description  = "An Ansible role for install GitLab Runner."
+      description  = "An Ansible role to install GitLab Runner."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab_runner/"
       topics       = ["ansible", "ansible-role", "ci", "gitlab", "gitlab-runner"]
       actions_plaintext_secrets = {
@@ -184,7 +184,7 @@ locals {
     }
 
     ansible-role-java = {
-      description  = "An Ansible role for install Java."
+      description  = "An Ansible role to install Java."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/java/"
       topics       = ["ansible", "ansible-role", "java"]
       actions_plaintext_secrets = {
@@ -204,7 +204,7 @@ locals {
     }
 
     ansible-galaxy-action = {
-      description = "A GitHub Action for publish an Ansible roles to Galaxy."
+      description = "A GitHub Action to publish an Ansible roles to Galaxy."
       topics      = ["ansible", "ansible-galaxy", "ansible-role"]
     }
 
