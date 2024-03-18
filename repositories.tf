@@ -209,7 +209,7 @@ locals {
     }
 
     ansible-role-containerd = {
-      description  = "An Ansible role to install Containerd."
+      description  = "An Ansible role to install and configure Containerd."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
       topics       = ["ansible", "ansible-role", "containerd"]
       actions_plaintext_secrets = {
