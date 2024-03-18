@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/antmelekhin/meta/compare/v1.0.0...v1.0.1) (2024-03-18)
+
+
+### Fixes
+
+* update `ansible-role-containerd` repository description ([5ef0985](https://github.com/antmelekhin/meta/commit/5ef0985462ba983dae47e525861386c2b194079a))
+
 ## [1.0.0](https://github.com/antmelekhin/meta/compare/...v1.0.0) (2024-02-20)
 
 
