@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/antmelekhin/meta/compare/v1.0.1...v1.1.0) (2024-03-25)
+
+
+### Features
+
+* add `ansible-role-gitlab` repository ([2f197e9](https://github.com/antmelekhin/meta/commit/2f197e9ed47fcd84830185af5a0775faba3921bd))
+
 ## [1.0.1](https://github.com/antmelekhin/meta/compare/v1.0.0...v1.0.1) (2024-03-18)
 
 
