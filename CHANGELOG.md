@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/antmelekhin/meta/compare/v1.1.0...v1.1.1) (2024-04-02)
+
+
+### Fixes
+
+* update module version ([8427aa4](https://github.com/antmelekhin/meta/commit/8427aa49b25caf142d34d0412a548570c5acb106))
+
 ## [1.1.0](https://github.com/antmelekhin/meta/compare/v1.0.1...v1.1.0) (2024-03-25)
 
 
