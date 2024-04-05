@@ -232,7 +232,7 @@ locals {
 
 module "repositories" {
   source  = "antmelekhin/repository/github"
-  version = "1.1.1"
+  version = "1.3.0"
 
   for_each = local.repositories
 
