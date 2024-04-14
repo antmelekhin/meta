@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/antmelekhin/meta/compare/v1.1.4...v1.2.0) (2024-04-14)
+
+
+### Continuous Integration
+
+* update release rules ([5689173](https://github.com/antmelekhin/meta/commit/56891738b49fb553e23f3ec6e13f36f2137879dd))
+
+
+### Features
+
+* update module version and add `default_branch` variable ([ddcbb42](https://github.com/antmelekhin/meta/commit/ddcbb4272cacd01e3feb0cb8b154b2e2db3c80f9))
+
 ## [1.1.4](https://github.com/antmelekhin/meta/compare/v1.1.3...v1.1.4) (2024-04-11)
 
 
