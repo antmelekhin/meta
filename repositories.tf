@@ -15,7 +15,7 @@ locals {
     }
 
     ansible-role-openssh = {
-      description    = "An Ansible role to configure OpenSSH server and client."
+      description    = "An Ansible role to configure the OpenSSH server and client."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/openssh/"
       topics         = ["ansible", "ansible-role", "linux", "openssh-client", "openssh-server", "windows"]
       default_branch = "main"
@@ -48,7 +48,7 @@ locals {
     }
 
     ansible-role-mysqld-exporter = {
-      description    = "An Ansible role to install, configure and update MySQL Exporter."
+      description    = "An Ansible role to install, configure and update the MySQL Exporter."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/mysqld_exporter/"
       topics         = ["ansible", "ansible-role", "linux", "monitoring", "mysqld-exporter", "prometheus"]
       default_branch = "main"
@@ -59,7 +59,7 @@ locals {
     }
 
     ansible-role-windows-exporter = {
-      description    = "An Ansible role to install, configure and update Windows Exporter."
+      description    = "An Ansible role to install, configure and update the Windows Exporter."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/windows_exporter/"
       topics         = ["ansible", "ansible-role", "monitoring", "prometheus", "windows", "windows-exporter"]
       default_branch = "main"
@@ -70,7 +70,7 @@ locals {
     }
 
     ansible-role-microsoft-repository = {
-      description    = "An Ansible role to add Microsoft repository on Linux distros and install packages from it."
+      description    = "An Ansible role that adds the Microsoft repository to Linux distributions and installs packages from it."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/microsoft_repository/"
       topics         = ["ansible", "ansible-role", "debian", "microsoft-repository", "packages", "rhel"]
       default_branch = "main"
@@ -87,7 +87,7 @@ locals {
     }
 
     ansible-role-postgres-exporter = {
-      description    = "An Ansible role to install, configure and update Postgres Exporter."
+      description    = "An Ansible role to install, configure and update the Postgres Exporter."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgres_exporter/"
       topics         = ["ansible", "ansible-role", "linux", "monitoring", "postgres-exporter", "prometheus", "windows"]
       default_branch = "main"
@@ -119,9 +119,9 @@ locals {
     }
 
     ansible-role-nginx = {
-      description    = "An Ansible role to install NGINX web server."
+      description    = "An Ansible role to install the NGINX web server."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/nginx/"
-      topics         = ["ansible", "ansible-role", "nginx", "web"]
+      topics         = ["ansible", "ansible-role", "debian", "nginx", "rhel", "web"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
@@ -151,9 +151,9 @@ locals {
     }
 
     ansible-role-gitlab-runner = {
-      description    = "An Ansible role to install GitLab Runner."
+      description    = "An Ansible role to install the GitLab Runner."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab_runner/"
-      topics         = ["ansible", "ansible-role", "ci", "gitlab", "gitlab-runner"]
+      topics         = ["ansible", "ansible-role", "ci", "gitlab", "gitlab-runner", "linux", "windows"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
@@ -162,9 +162,9 @@ locals {
     }
 
     ansible-role-docker = {
-      description    = "An Ansible role to install and configure Docker Engine."
+      description    = "An Ansible role to install the Docker Engine from the Docker repository and configure it."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/docker/"
-      topics         = ["ansible", "ansible-role", "docker", "docker-engine"]
+      topics         = ["ansible", "ansible-role", "debian", "docker", "docker-engine", "rhel"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
@@ -183,9 +183,9 @@ locals {
     }
 
     ansible-role-postgresql = {
-      description  = "An Ansible role to install PostgreSQL."
+      description  = "An Ansible role to install the PostgreSQL server."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgresql/"
-      topics       = ["ansible", "ansible-role", "database", "postgres", "postgresql", "sql"]
+      topics       = ["ansible", "ansible-role", "database", "debian", "postgres", "postgresql", "sql", "rhel"]
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
         GH_TOKEN       = var.github_token
@@ -205,7 +205,7 @@ locals {
     ansible-role-java = {
       description    = "An Ansible role to install Java."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/java/"
-      topics         = ["ansible", "ansible-role", "java"]
+      topics         = ["ansible", "ansible-role", "debian", "java", "rhel"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
@@ -230,9 +230,9 @@ locals {
     }
 
     ansible-role-containerd = {
-      description    = "An Ansible role to install and configure Containerd."
+      description    = "An Ansible role to install the Containerd from the Docker repository and configure it."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
-      topics         = ["ansible", "ansible-role", "containerd"]
+      topics         = ["ansible", "ansible-role", "containerd", "containers", "debian", "docker", "rhel"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
