@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/antmelekhin/meta/compare/v1.2.1...v1.2.2) (2024-06-13)
+
+
+### Fixes
+
+* update some repositories description ([c3ef0e2](https://github.com/antmelekhin/meta/commit/c3ef0e2d64b2d534174e6f94067e80c94bf1c35f))
+
 ## [1.2.1](https://github.com/antmelekhin/meta/compare/v1.2.0...v1.2.1) (2024-05-22)
 
 
