@@ -48,7 +48,7 @@ locals {
     }
 
     ansible-role-mysqld-exporter = {
-      description    = "An Ansible role to install, configure and update the MySQL Exporter."
+      description    = "An Ansible role to install, configure and update the MySQLd Exporter."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/mysqld_exporter/"
       topics         = ["ansible", "ansible-role", "linux", "monitoring", "mysqld-exporter", "prometheus"]
       default_branch = "main"
@@ -151,7 +151,7 @@ locals {
     }
 
     ansible-role-gitlab-runner = {
-      description    = "An Ansible role to install the GitLab Runner."
+      description    = "An Ansible role to install GitLab Runner."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab_runner/"
       topics         = ["ansible", "ansible-role", "ci", "gitlab", "gitlab-runner", "linux", "windows"]
       default_branch = "main"
@@ -162,7 +162,7 @@ locals {
     }
 
     ansible-role-docker = {
-      description    = "An Ansible role to install the Docker Engine from the Docker repository and configure it."
+      description    = "An Ansible role to install and configure Docker Engine."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/docker/"
       topics         = ["ansible", "ansible-role", "debian", "docker", "docker-engine", "rhel"]
       default_branch = "main"
@@ -203,9 +203,9 @@ locals {
     }
 
     ansible-role-java = {
-      description    = "An Ansible role to install Java."
+      description    = "An Ansible role to install the Java package."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/java/"
-      topics         = ["ansible", "ansible-role", "debian", "java", "rhel"]
+      topics         = ["ansible", "ansible-role", "corretto", "debian", "java", "openjdk", "rhel"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
@@ -230,7 +230,7 @@ locals {
     }
 
     ansible-role-containerd = {
-      description    = "An Ansible role to install the Containerd from the Docker repository and configure it."
+      description    = "An Ansible role to install and configure Containerd."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
       topics         = ["ansible", "ansible-role", "containerd", "containers", "debian", "docker", "rhel"]
       default_branch = "main"
@@ -241,7 +241,7 @@ locals {
     }
 
     ansible-role-gitlab = {
-      description  = "An Ansible role to install and configure Gitlab."
+      description  = "An Ansible role to install and configure GitLab."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab/"
       topics       = ["ansible", "ansible-role", "gitlab"]
       actions_plaintext_secrets = {
