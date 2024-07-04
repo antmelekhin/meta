@@ -214,7 +214,7 @@ locals {
     }
 
     docker-ansible = {
-      description    = "Alpine-based Docker images with Ansible tools for usage in pipelines."
+      description    = "Alpine-based Docker images with Ansible for use in pipelines."
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-ansible"
       topics         = ["docker", "ansible"]
       default_branch = "main"
