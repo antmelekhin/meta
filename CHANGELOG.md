@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/antmelekhin/meta/compare/v1.2.3...v1.2.4) (2024-07-05)
+
+
+### Fixes
+
+* update `docker-terraform` description ([bca4027](https://github.com/antmelekhin/meta/commit/bca4027067a955b17d6b14ab59901cb5225e5615))
+
 ## [1.2.3](https://github.com/antmelekhin/meta/compare/v1.2.2...v1.2.3) (2024-07-04)
 
 
