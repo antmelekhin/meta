@@ -130,12 +130,13 @@ locals {
     }
 
     docker-terraform = {
-      description    = "Alpine-based Docker images with Terraform tools for usage in pipelines."
+      description    = "Alpine-based Docker images with Terraform tools for use in pipelines."
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-terraform"
       topics         = ["docker", "terraform", "terragrunt"]
       default_branch = "main"
       actions_plaintext_secrets = {
         DOCKER_HUB_TOKEN = var.docker_hub_token
+        GH_TOKEN         = var.github_token
       }
     }
 
