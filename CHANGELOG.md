@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/antmelekhin/meta/compare/v1.2.5...v1.3.0) (2024-07-08)
+
+
+### Features
+
+* add GH_TOKEN to `packer-templates` repository ([72c96e7](https://github.com/antmelekhin/meta/commit/72c96e77ad79ef3a38ef259fe7aa9482109ff331))
+
 ## [1.2.5](https://github.com/antmelekhin/meta/compare/v1.2.4...v1.2.5) (2024-07-08)
 
 
