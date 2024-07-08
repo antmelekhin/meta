@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/antmelekhin/meta/compare/v1.2.4...v1.2.5) (2024-07-08)
+
+
+### Fixes
+
+* update `ansible-role-docker` topics ([f065ad1](https://github.com/antmelekhin/meta/commit/f065ad1d8e8f33b5cfe9c8c602688a8355eb17bb))
+
 ## [1.2.4](https://github.com/antmelekhin/meta/compare/v1.2.3...v1.2.4) (2024-07-05)
 
 
