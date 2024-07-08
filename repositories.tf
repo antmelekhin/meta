@@ -84,6 +84,9 @@ locals {
       description    = "A collection of Packer templates."
       topics         = ["hyperv-iso", "linux", "packer", "packer-template", "virtualbox-iso", "windows", "yandex", "yandex-cloud"]
       default_branch = "main"
+      actions_plaintext_secrets = {
+        GH_TOKEN = var.github_token
+      }
     }
 
     ansible-role-postgres-exporter = {
