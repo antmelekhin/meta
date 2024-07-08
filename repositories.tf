@@ -165,7 +165,7 @@ locals {
     ansible-role-docker = {
       description    = "An Ansible role to install and configure Docker Engine."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/docker/"
-      topics         = ["ansible", "ansible-role", "debian", "docker", "docker-engine", "rhel"]
+      topics         = ["ansible", "ansible-role", "debian", "docker", "docker-engine", "fedora", "rhel", "ubuntu"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
