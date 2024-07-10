@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/antmelekhin/meta/compare/v1.3.0...v1.4.0) (2024-07-10)
+
+
+### Features
+
+* add `ansible-role-cni-plugins` repository ([21037a0](https://github.com/antmelekhin/meta/commit/21037a0bd8665686a9f52f0d343ce244334cfed9))
+
 ## [1.3.0](https://github.com/antmelekhin/meta/compare/v1.2.5...v1.3.0) (2024-07-08)
 
 
