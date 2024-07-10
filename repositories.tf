@@ -121,6 +121,16 @@ locals {
       }
     }
 
+    ansible-role-cni-plugins = {
+      description  = "An Ansible role to install and configure CNI (Container Network Interface) plugins."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/cni_plugins/"
+      topics       = ["ansible", "ansible-role", "cni", "containers", "debian", "docker", "kubernetes", "k8s", "networking", "rhel"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
+
     ansible-role-nginx = {
       description    = "An Ansible role to install the NGINX web server."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/nginx/"
