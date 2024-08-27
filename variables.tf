@@ -8,7 +8,12 @@ variable "github_token" {
   default = null
 }
 
-variable "docker_hub_token" {
+variable "dockerhub_username" {
+  type    = string
+  default = null
+}
+
+variable "dockerhub_token" {
   type    = string
   default = null
 }

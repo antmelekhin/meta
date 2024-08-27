@@ -116,8 +116,9 @@ locals {
       topics         = ["ansible", "docker", "molecule", "systemd"]
       default_branch = "main"
       actions_plaintext_secrets = {
-        DOCKER_HUB_TOKEN = var.docker_hub_token
-        GH_TOKEN         = var.github_token
+        DOCKERHUB_USERNAME = var.dockerhub_username
+        DOCKERHUB_TOKEN    = var.dockerhub_token
+        GH_TOKEN           = var.github_token
       }
     }
 
@@ -148,8 +149,9 @@ locals {
       topics         = ["docker", "terraform", "terragrunt"]
       default_branch = "main"
       actions_plaintext_secrets = {
-        DOCKER_HUB_TOKEN = var.docker_hub_token
-        GH_TOKEN         = var.github_token
+        DOCKERHUB_USERNAME = var.dockerhub_username
+        DOCKERHUB_TOKEN    = var.dockerhub_token
+        GH_TOKEN           = var.github_token
       }
     }
 
@@ -233,8 +235,9 @@ locals {
       topics         = ["docker", "ansible"]
       default_branch = "main"
       actions_plaintext_secrets = {
-        DOCKER_HUB_TOKEN = var.docker_hub_token
-        GH_TOKEN         = var.github_token
+        DOCKERHUB_USERNAME = var.dockerhub_username
+        DOCKERHUB_TOKEN    = var.dockerhub_token
+        GH_TOKEN           = var.github_token
       }
     }
 
