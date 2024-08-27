@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/antmelekhin/meta/compare/v1.4.0...v1.4.1) (2024-08-27)
+
+
+### Fixes
+
+* update dockerhub variables ([bef947c](https://github.com/antmelekhin/meta/commit/bef947ce38c45bb337ad3589eb6c2baaf9f6cbf1))
+
 ## [1.4.0](https://github.com/antmelekhin/meta/compare/v1.3.0...v1.4.0) (2024-07-10)
 
 
