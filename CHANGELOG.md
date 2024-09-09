@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/antmelekhin/meta/compare/v1.4.1...v1.5.0) (2024-09-09)
+
+
+### Features
+
+* add `ansible-role-chocolatey` repository ([cf8f4da](https://github.com/antmelekhin/meta/commit/cf8f4da45a1ec9fc66ab82c93ad3729023906223))
+
 ## [1.4.1](https://github.com/antmelekhin/meta/compare/v1.4.0...v1.4.1) (2024-08-27)
 
 
