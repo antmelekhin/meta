@@ -241,6 +241,16 @@ locals {
       }
     }
 
+    ansible-role-chocolatey = {
+      description  = "An Ansible role that installs Chocolatey and manages packages using it."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/chocolatey/"
+      topics       = ["ansible", "ansible-role", "chocolatey", "packages", "windows"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
+
     ansible-galaxy-action = {
       description = "A GitHub Action to publish an Ansible roles to Galaxy."
       topics      = ["ansible", "ansible-galaxy", "ansible-role"]
