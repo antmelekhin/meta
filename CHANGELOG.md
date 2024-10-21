@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/antmelekhin/meta/compare/v1.5.0...v1.6.0) (2024-10-21)
+
+
+### Features
+
+* add `ansible-role-locales` repository ([765228d](https://github.com/antmelekhin/meta/commit/765228deab4b9c6091e7de93c4bf48a775d82f79))
+
 ## [1.5.0](https://github.com/antmelekhin/meta/compare/v1.4.1...v1.5.0) (2024-09-09)
 
 
