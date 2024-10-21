@@ -256,6 +256,16 @@ locals {
       topics      = ["ansible", "ansible-galaxy", "ansible-role"]
     }
 
+    ansible-role-locales = {
+      description  = "An Ansible role to manage locales."
+      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/locales/"
+      topics       = ["ansible", "ansible-role", "debian", "locales", "rhel", "system"]
+      actions_plaintext_secrets = {
+        GALAXY_API_KEY = var.galaxy_api_token
+        GH_TOKEN       = var.github_token
+      }
+    }
+
     ansible-role-containerd = {
       description    = "An Ansible role to install and configure Containerd."
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
