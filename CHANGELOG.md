@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/antmelekhin/meta/compare/v1.6.0...v1.7.0) (2024-11-05)
+
+
+### Features
+
+* add `terraform-gitlab-project` repository ([9ebf5a2](https://github.com/antmelekhin/meta/commit/9ebf5a21a079484204ccb731d9a2629cd9210a7f))
+
 ## [1.6.0](https://github.com/antmelekhin/meta/compare/v1.5.0...v1.6.0) (2024-10-21)
 
 
