@@ -231,7 +231,7 @@ locals {
 
     terraform-gitlab-project = {
       description  = "A Terraform module to manage GitLab Projects."
-      homepage_url = "https://registry.terraform.io/modules/antmelekhin/repository/gitlab"
+      homepage_url = "https://registry.terraform.io/modules/antmelekhin/project/gitlab"
       topics       = ["gitlab", "gitlab-project", "iac", "terraform", "terraform-module"]
       actions_plaintext_secrets = {
         GH_TOKEN = var.github_token
