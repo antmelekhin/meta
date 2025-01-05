@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/antmelekhin/meta/compare/v1.7.0...v1.8.0) (2025-01-05)
+
+
+### Features
+
+* added `terraform-gitlab-group` repository ([de98362](https://github.com/antmelekhin/meta/commit/de98362d579c83c4822023802b5bf72f24849b91))
+
+
+### Fixes
+
+* fixed `terraform-gitlab-project` repository homepage_url ([e88dc36](https://github.com/antmelekhin/meta/commit/e88dc362c637f49fcde79982ff7c2ed6981cc217))
+
 ## [1.7.0](https://github.com/antmelekhin/meta/compare/v1.6.0...v1.7.0) (2024-11-05)
 
 
