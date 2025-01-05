@@ -238,6 +238,15 @@ locals {
       }
     }
 
+    terraform-gitlab-group = {
+      description  = "A Terraform module to manage GitLab Groups."
+      homepage_url = "https://registry.terraform.io/modules/antmelekhin/group/gitlab"
+      topics       = ["gitlab", "gitlab-group", "iac", "terraform", "terraform-module"]
+      actions_plaintext_secrets = {
+        GH_TOKEN = var.github_token
+      }
+    }
+
     docker-ansible = {
       description    = "Alpine-based Docker images with Ansible for use in pipelines."
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-ansible"
