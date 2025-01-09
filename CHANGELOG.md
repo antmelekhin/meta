@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/antmelekhin/meta/compare/v1.8.0...v1.9.0) (2025-01-09)
+
+
+### Features
+
+* rm unused repositories ([5f2d587](https://github.com/antmelekhin/meta/commit/5f2d5870f58a46c019be024a1bb9c64b0a374ee3))
+
 ## [1.8.0](https://github.com/antmelekhin/meta/compare/v1.7.0...v1.8.0) (2025-01-05)
 
 
