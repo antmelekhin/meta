@@ -259,21 +259,6 @@ locals {
       }
     }
 
-    ansible-role-chocolatey = {
-      description  = "An Ansible role that installs Chocolatey and manages packages using it."
-      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/chocolatey/"
-      topics       = ["ansible", "ansible-role", "chocolatey", "packages", "windows"]
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
-      }
-    }
-
-    ansible-galaxy-action = {
-      description = "A GitHub Action to publish an Ansible roles to Galaxy."
-      topics      = ["ansible", "ansible-galaxy", "ansible-role"]
-    }
-
     ansible-role-locales = {
       description  = "An Ansible role to manage locales."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/locales/"
@@ -289,16 +274,6 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
       topics         = ["ansible", "ansible-role", "containerd", "containers", "debian", "docker", "rhel"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
-      }
-    }
-
-    ansible-role-gitlab = {
-      description  = "An Ansible role to install and configure GitLab."
-      homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab/"
-      topics       = ["ansible", "ansible-role", "gitlab"]
       actions_plaintext_secrets = {
         GALAXY_API_KEY = var.galaxy_api_token
         GH_TOKEN       = var.github_token
