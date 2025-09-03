@@ -199,7 +199,7 @@ locals {
     }
 
     ansible-role-postgresql = {
-      description  = "An Ansible role to install the PostgreSQL server."
+      description  = "An Ansible role to install and configure PostgreSQL server."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgresql/"
       topics       = ["ansible", "ansible-role", "database", "debian", "postgres", "postgresql", "sql", "rhel"]
       actions_plaintext_secrets = {
