@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.1](https://github.com/antmelekhin/meta/compare/v1.9.0...v1.9.1) (2025-09-03)
+
+
+### Documentation
+
+* **README:** update readme file ([61db791](https://github.com/antmelekhin/meta/commit/61db7913ca369b2c55163d357a614a54381a9b6b))
+
+
+### Fixes
+
+* update `ansible-role-postgresql` description ([c2d4201](https://github.com/antmelekhin/meta/commit/c2d4201ea05decb1e92a16eb95541aa90cd16b89))
+
 ## [1.9.0](https://github.com/antmelekhin/meta/compare/v1.8.0...v1.9.0) (2025-01-09)
 
 
