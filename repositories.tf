@@ -82,7 +82,7 @@ locals {
 
     packer-templates = {
       description    = "A collection of Packer templates."
-      topics         = ["hyperv-iso", "linux", "packer", "packer-template", "virtualbox-iso", "windows", "yandex", "yandex-cloud"]
+      topics         = ["centos", "debian", "hyperv-iso", "packer", "packer-template", "virtualbox-iso", "windows"]
       default_branch = "main"
       actions_plaintext_secrets = {
         GH_TOKEN = var.github_token
