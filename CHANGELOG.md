@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/antmelekhin/meta/compare/v1.9.1...v1.9.2) (2026-05-16)
+
+
+### Fixes
+
+* update `packer-templates` topics ([093f6b4](https://github.com/antmelekhin/meta/commit/093f6b4677ea238400dcd001f4e477531a2905a5))
+
 ## [1.9.1](https://github.com/antmelekhin/meta/compare/v1.9.0...v1.9.1) (2025-09-03)
 
 
