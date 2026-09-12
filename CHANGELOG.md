@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/antmelekhin/meta/compare/v1.9.2...v1.10.0) (2026-09-12)
+
+
+### Features
+
+* update module version to 2.0.0 ([595957d](https://github.com/antmelekhin/meta/commit/595957d16e14880980759e772f50841ee7c479d9))
+
 ## [1.9.2](https://github.com/antmelekhin/meta/compare/v1.9.1...v1.9.2) (2026-05-16)
 
 
