@@ -19,9 +19,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/openssh/"
       topics         = ["ansible", "ansible-role", "linux", "openssh-client", "openssh-server", "windows"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -30,9 +32,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/jira/"
       topics         = ["ansible", "ansible-role", "issuetracker", "jira"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -41,9 +45,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/confluence/"
       topics         = ["ansible", "ansible-role", "confluence", "wiki"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -52,9 +58,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/mysqld_exporter/"
       topics         = ["ansible", "ansible-role", "linux", "monitoring", "mysqld-exporter", "prometheus"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -63,9 +71,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/windows_exporter/"
       topics         = ["ansible", "ansible-role", "monitoring", "prometheus", "windows", "windows-exporter"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -74,9 +84,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/microsoft_repository/"
       topics         = ["ansible", "ansible-role", "debian", "microsoft-repository", "packages", "rhel"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -84,8 +96,10 @@ locals {
       description    = "A collection of Packer templates."
       topics         = ["centos", "debian", "hyperv-iso", "packer", "packer-template", "virtualbox-iso", "windows"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -94,9 +108,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgres_exporter/"
       topics         = ["ansible", "ansible-role", "linux", "monitoring", "postgres-exporter", "prometheus", "windows"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -105,8 +121,10 @@ locals {
       homepage_url   = "https://registry.terraform.io/modules/antmelekhin/compute/yandex"
       topics         = ["compute", "iac", "terraform", "terraform-module", "yandex", "yandex-cloud"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -115,10 +133,12 @@ locals {
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-systemd"
       topics         = ["ansible", "docker", "molecule", "systemd"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        DOCKERHUB_USERNAME = var.dockerhub_username
-        DOCKERHUB_TOKEN    = var.dockerhub_token
-        GH_TOKEN           = var.github_token
+      actions_secrets = {
+        plaintext = {
+          DOCKERHUB_USERNAME = var.dockerhub_username
+          DOCKERHUB_TOKEN    = var.dockerhub_token
+          GH_TOKEN           = var.github_token
+        }
       }
     }
 
@@ -126,9 +146,11 @@ locals {
       description  = "An Ansible role to install and configure CNI (Container Network Interface) plugins."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/cni_plugins/"
       topics       = ["ansible", "ansible-role", "cni", "containers", "debian", "docker", "kubernetes", "k8s", "networking", "rhel"]
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -137,9 +159,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/nginx/"
       topics         = ["ansible", "ansible-role", "debian", "nginx", "rhel", "web"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -148,10 +172,12 @@ locals {
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-terraform"
       topics         = ["docker", "terraform", "terragrunt"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        DOCKERHUB_USERNAME = var.dockerhub_username
-        DOCKERHUB_TOKEN    = var.dockerhub_token
-        GH_TOKEN           = var.github_token
+      actions_secrets = {
+        plaintext = {
+          DOCKERHUB_USERNAME = var.dockerhub_username
+          DOCKERHUB_TOKEN    = var.dockerhub_token
+          GH_TOKEN           = var.github_token
+        }
       }
     }
 
@@ -160,9 +186,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/domain_controller/"
       topics         = ["active-directory", "ansible", "ansible-role", "domain-controller", "windows"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -171,9 +199,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/gitlab_runner/"
       topics         = ["ansible", "ansible-role", "ci", "gitlab", "gitlab-runner", "linux", "windows"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -182,9 +212,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/docker/"
       topics         = ["ansible", "ansible-role", "debian", "docker", "docker-engine", "fedora", "rhel", "ubuntu"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -193,8 +225,10 @@ locals {
       homepage_url   = "https://github.com/antmelekhin"
       topics         = ["github", "iac", "terraform-managed"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -202,9 +236,11 @@ locals {
       description  = "An Ansible role to install and configure PostgreSQL server."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/postgresql/"
       topics       = ["ansible", "ansible-role", "database", "debian", "postgres", "postgresql", "sql", "rhel"]
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -213,8 +249,10 @@ locals {
       homepage_url   = "https://registry.terraform.io/modules/antmelekhin/repository/github"
       topics         = ["github", "github-repository", "iac", "terraform", "terraform-module"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -223,9 +261,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/java/"
       topics         = ["ansible", "ansible-role", "corretto", "debian", "java", "openjdk", "rhel"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -233,8 +273,10 @@ locals {
       description  = "A Terraform module to manage GitLab Projects."
       homepage_url = "https://registry.terraform.io/modules/antmelekhin/project/gitlab"
       topics       = ["gitlab", "gitlab-project", "iac", "terraform", "terraform-module"]
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -242,8 +284,10 @@ locals {
       description  = "A Terraform module to manage GitLab Groups."
       homepage_url = "https://registry.terraform.io/modules/antmelekhin/group/gitlab"
       topics       = ["gitlab", "gitlab-group", "iac", "terraform", "terraform-module"]
-      actions_plaintext_secrets = {
-        GH_TOKEN = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GH_TOKEN = var.github_token
+        }
       }
     }
 
@@ -252,10 +296,12 @@ locals {
       homepage_url   = "https://hub.docker.com/r/antmelekhin/docker-ansible"
       topics         = ["docker", "ansible"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        DOCKERHUB_USERNAME = var.dockerhub_username
-        DOCKERHUB_TOKEN    = var.dockerhub_token
-        GH_TOKEN           = var.github_token
+      actions_secrets = {
+        plaintext = {
+          DOCKERHUB_USERNAME = var.dockerhub_username
+          DOCKERHUB_TOKEN    = var.dockerhub_token
+          GH_TOKEN           = var.github_token
+        }
       }
     }
 
@@ -263,9 +309,11 @@ locals {
       description  = "An Ansible role to manage locales."
       homepage_url = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/locales/"
       topics       = ["ansible", "ansible-role", "debian", "locales", "rhel", "system"]
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
 
@@ -274,9 +322,11 @@ locals {
       homepage_url   = "https://galaxy.ansible.com/ui/standalone/roles/antmelekhin/containerd/"
       topics         = ["ansible", "ansible-role", "containerd", "containers", "debian", "docker", "rhel"]
       default_branch = "main"
-      actions_plaintext_secrets = {
-        GALAXY_API_KEY = var.galaxy_api_token
-        GH_TOKEN       = var.github_token
+      actions_secrets = {
+        plaintext = {
+          GALAXY_API_KEY = var.galaxy_api_token
+          GH_TOKEN       = var.github_token
+        }
       }
     }
   }
@@ -284,7 +334,7 @@ locals {
 
 module "repositories" {
   source  = "antmelekhin/repository/github"
-  version = "1.3.2"
+  version = "2.0.0"
 
   for_each = local.repositories
 
@@ -295,6 +345,5 @@ module "repositories" {
 
   default_branch = try(each.value.default_branch, null)
 
-  actions_encrypted_secrets = try(each.value.actions_encrypted_secrets, {})
-  actions_plaintext_secrets = try(each.value.actions_plaintext_secrets, {})
+  actions_secrets = try(each.value.actions_secrets, {})
 }
