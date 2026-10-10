@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/antmelekhin/meta/compare/v1.11.0...v1.12.0) (2026-10-10)
+
+
+### Features
+
+* add `nix-config` repository ([12ebf18](https://github.com/antmelekhin/meta/commit/12ebf18500c3573409c1d40809a9bb2b59c55c47))
+
 ## [1.11.0](https://github.com/antmelekhin/meta/compare/v1.10.0...v1.11.0) (2026-09-14)
 
 
