@@ -329,6 +329,11 @@ locals {
         }
       }
     }
+
+    nix-config = {
+      description = "My nix-darwin & Home Manager configuration files."
+      topics      = ["home-manager", "macos", "nix-darwin"]
+    }
   }
 }
 
