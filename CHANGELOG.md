@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.13.0](https://github.com/antmelekhin/meta/compare/v1.12.0...v1.13.0) (2026-11-08)
+
+
+### Documentation
+
+* **README:** update README.md ([f66b954](https://github.com/antmelekhin/meta/commit/f66b954e693970ebbe49e83d2c111e370ee74019))
+
+
+### Features
+
+* add renovate-config and github-action-version-updater repos ([04d0b97](https://github.com/antmelekhin/meta/commit/04d0b97946b56e19d2a34fa2690da41d3d370aca))
+
 ## [1.12.0](https://github.com/antmelekhin/meta/compare/v1.11.0...v1.12.0) (2026-10-10)
 
 
