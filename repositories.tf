@@ -334,6 +334,16 @@ locals {
       description = "My nix-darwin & Home Manager configuration files."
       topics      = ["home-manager", "macos", "nix-darwin"]
     }
+
+    github-action-version-updater = {
+      description = "My version updater GitHub Action."
+      topics      = ["ci", "dependencies"]
+    }
+
+    renovate-config = {
+      description = "My common Renovate config files."
+      topics      = ["ci", "dependencies", "renovate"]
+    }
   }
 }
 
